@@ -1,0 +1,210 @@
+html,body{
+    width:100%;height:100%;overflow: hidden;background: url(../images/81.jpg) no-repeat 0 0;padding: 0;margin: 0;
+    background-size: cover;
+}
+.start{
+    width: 532px;height: 300px;
+    position: fixed;left: 0;top: 0;right: 0;bottom: 0;margin: auto auto;
+    background: url(../images/129.jpg) no-repeat 0 0;
+    background-size: 532px 300px;
+    z-index: 100;
+}
+.select{
+    width: 200px;height: 150px;
+    position: absolute;right: 160px;top: 70px;
+}
+.select span{
+    display: block;
+    width:0px;height: 30px;
+    margin: 0 auto;
+    text-align: center;line-height: 30px;
+    font-size: 16px;color: #000;overflow:hidden;
+}
+.select span:nth-of-type(1){
+    animation:donghua 2s linear forwards;
+}
+.select span:nth-of-type(2){
+    animation:donghua 2s linear 2s forwards;
+}
+@-webkit-keyframes donghua{
+    0%{
+        width:0;
+    }
+    100%{
+        width:100px;
+    }
+}
+.select input{
+    display: block;
+    width: 150px;height: 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;color: #666;
+}
+#start{
+    display: block;
+    width: 75px;
+    height: 25px;
+    text-decoration: none;
+    color: #eee;
+    font-size: 20px;
+    position: absolute;
+    bottom: 48px;
+    left: 246px;
+    font-weight: bold;
+}
+.text{
+    position: fixed;left: 44%;top: 25%;
+}
+.message{
+    height: 80px;width: 100%;position: fixed;top: 0;left: 0;z-index: 999;
+}
+.message div{
+    float: left;height: 80px;width: 33.3333%;text-align: center;line-height: 80px;
+    margin-top: 10px;
+}
+.message div img{
+    background-size: cover;
+    height: 80px;width: 80px;vertical-align: middle;
+}
+.message div span{
+    height: 80px;width: auto;margin-left: 10px;color: #000;font-size: 26px;
+}
+.message div .si{
+    width:0px;display:block;font-size:16px;text-align: center;margin-top:-30px;overflow: hidden;animation:dong linear infinite alternate;
+}
+@-webkit-keyframes dong{
+    0%{
+        width:0;
+    }
+    100%{
+        width:445px;
+    }
+}
+.next{
+    width: 532px;height: 300px;
+    position: fixed;left: 0;top: 0;right: 0;bottom: 0;margin: auto auto;
+    background: url(../images/bj2.png) no-repeat 0 0;
+    background-size: 532px 300px;
+    display: none;opacity: 0;
+    z-index: 100;
+}
+.next img{
+    position: absolute;top: 100px;right: 130px;
+}
+.mes{
+    width: 150px;height: 100px;
+    position: absolute;top: 120px;left: 193px;
+    font-size: 20px;color: #000;font-family: "微软雅黑"
+}
+#go{
+    display: block;
+    width: 75px;
+    height: 25px;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    bottom: 51px;
+    left: 243px;
+    font-size: 22px;
+}
+.fail{
+    width: 532px;height: 300px;
+    position: fixed;left: 0;top: 0;right: 0;bottom: 0;margin: auto auto;
+    background: url(../images/bj2.png) no-repeat 0 0;
+    background-size: 532px 300px;
+    display: none;opacity: 0;
+    z-index: 100;
+}
+.fail img{
+    position: absolute;top: 100px;right: 130px;
+}
+.score{
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 190px;
+    font-size: 18px;
+    color: #381a07;
+    font-weight: bold;
+}
+.score p{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    height: 20px;
+}
+.score>.p{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+.score>#again{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+#again{
+    display: block;
+    width: 85px;
+    height: 25px;
+    position: absolute;
+    bottom: 51px;
+    left: 240px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.back,.close{
+    display: block;
+    width: 20px;height: 20px;text-decoration:none;color:#ccbd8d;font-size:30px;font-family:Arial;font-weight:500;
+    position: absolute;top: 11px;right: 67px;
+}
+.message div .fenshu{
+     width: 145px;
+     height: 43px;
+     position: absolute;
+     left: 226px;
+     top: 25px;
+     text-align: center;
+     line-height: 43px;
+     font-size: 22px;
+ }
+.message div .shengming{
+    width: 145px;
+    height: 43px;
+    position: absolute;
+    left: 670px;
+    top: 33px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 22px;
+}
+.message div .guanka{
+    width: 145px;
+    height: 43px;
+    position: absolute;
+    right: 87px;
+    top: 25px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 22px;
+}
+#shengming{
+    display: block;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    text-align: center;
+}
+#score{
+    text-align: center;
+    height: 26px;
+    margin-top: -8px;
+    font-size: 20px;
+    color: #000;
+}
